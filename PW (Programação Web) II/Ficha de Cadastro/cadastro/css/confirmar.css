@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+
+body{
+    background-color:  rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sora";
+}
+
+h1{
+    color: white;
+}
+
+label{
+    color: white;
+    border: 5px;
+        font-family: "cal sans";
+        
+
+}
+
+span{
+    color: white;   
+}
+
+section{
+    background-color: rgb(45, 42, 40);
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: dashed 0.5px black;
+    margin-bottom: 20px;
+    border-radius: 10px;
+     box-shadow: 5px 10px rgb(172, 9, 9);
+}
+
+section div{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+section div label{
+    width: 25%;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+section img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+form{
+    font-family: "Sora";
+    padding: 20px;
+    background-color: rgb(223, 214, 206);
+    border-radius: 20px;
+    height: 60%;
+    box-shadow: 5px 10px rgb(172, 9, 9);
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+

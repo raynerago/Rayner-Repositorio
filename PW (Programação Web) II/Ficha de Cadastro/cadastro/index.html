@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <head>
+        <div class="topo">
+            <img src="./img/logo-sem-marca.jpg" width="25%" height="250%">
+            <h1>Ficha de Cadastro</h1>
+        </div>
+
+    </head>
+    <Section>
+        <form action="">
+                <div >
+                    <label for="">NOME COMPLETO</label>
+                    <input name="nome" type="text">
+                </div>
+                <div>   
+                    <label for="">EMAIL</label>
+                    <input type="text" name="email" id="">
+                </div>
+                <div>   
+                    <label for="">CPF</label>
+                    <input type="text" name="cpf" id="">
+                </div>
+                <div>   
+                    <label for="">DATA DE NASCIMENTO</label>
+                    <input type="date" name="nascimento" id="">
+                </div>
+                <div>   
+                    <label for="">ALTURA</label>
+                    <input type="text" name="altura" id="">
+                </div>
+                <div>   
+                    <label for="">PESO</label>
+                    <input type="text" name="peso" id="">
+                </div>
+
+                <div>
+                    <label for="">ACADEMIA</label>
+                    <select name="academia" id="">
+                        <option value="GUAIANASES">Guaianases</option>
+                        <option value="CIDADE TIRADENTES">Cidade Tiradentes</option>
+                        <option value="ITAIM">Itaim</option>
+                        <option value="TATUAPÉ">Tatuapé</option>
+                        <option value="ITAQUERA">Itaquera</option>
+                        <option value="SÃO MIGUEL">São Miguel</option>
+                    </select>
+                </div>
+               <label for="">FORMA DE PAGAMENTO</label>
+               <br>
+            <select name="pagamento" id="">
+                        <option value="PIX">Pix</option>
+                        <option value="CARTÃO DE CRÉDITO">Cartão de Crédito</option>
+                        <option value="DINHEIRO">Dinheiro</option>
+                    </select>
+                <div>
+                    <label for="">PLANO</label>
+                    <select name="plano" id="">
+                        <option value="BLACK">Black R$149.90</option>
+                        <option value="FIT">Fit R$129.90</option>
+                        <option value="SMART">Smart R$179.90</option>
+                    </select>
+                </div>
+                <div class="div_sexo">     
+                    <label for="">SEXO</label> 
+                    <select name="sexo" id="">
+                        <option value="FEM">Feminino</option>
+                        <option value="MASC">Masculino</option>
+                        <option value="OUTROS">Outros</option>
+                    </select>              
+                </div>
+            </div>
+            <div class="div_button">
+                <img src="./img/confirmar.png" alt="">
+            </div>
+        </form>
+    </Section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
